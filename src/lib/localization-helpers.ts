@@ -1,28 +1,29 @@
 import contacts from "@/content/global/contacts.json";
-import footerEn from "@/content/global/en/footer.json";
-import headerEn from "@/content/global/en/header.json";
-import seoEn from "@/content/global/en/seo.json";
-import footerIt from "@/content/global/it/footer.json";
-import headerIt from "@/content/global/it/header.json";
-import seoIt from "@/content/global/it/seo.json";
+import footerEs from "@/content/global/es/footer.json";
+import headerEs from "@/content/global/es/header.json";
+import seoEs from "@/content/global/es/seo.json";
+import footerPt from "@/content/global/pt/footer.json";
+import headerPt from "@/content/global/pt/header.json";
+import seoPt from "@/content/global/pt/seo.json";
+
 import style from "@/content/global/style.json";
 import widget from "@/content/global/widget.json";
 import { defaultLocale, locales } from "site.config";
 
 const settings: Record<string, LocalizedSettings> = {
-	it: {
-		header: headerIt,
-		footer: footerIt,
+	es: {
+		header: headerEs,
+		footer: footerEs,
 		contacts: contacts,
-		seo: seoIt,
+		seo: seoEs,
 		style: style,
 		widget: widget,
 	},
-	en: {
-		header: headerEn,
-		footer: footerEn,
+	pt: {
+		header: headerPt,
+		footer: footerPt,
 		contacts: contacts,
-		seo: seoEn,
+		seo: seoPt,
 		style: style,
 		widget: widget,
 	},

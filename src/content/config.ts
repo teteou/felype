@@ -54,8 +54,11 @@ const servicesCollection = defineCollection({
 			title: z.string(),
 			pubDate: z.date(),
 			lastUpdateDate: z.date(),
-			cover: z.optional(image()),
+			cover: image(),
+			video: z.optional(z.string()),
 			description: z.string(),
+			link: z.optional(z.string()),
+			tags: z.array(z.string()),
 			hidden: z.optional(z.boolean()),
 		}),
 });

@@ -1,0 +1,10 @@
+{
+	"title": "¿Tienes alguna duda?<br/> ¡No dudes en contactarnos!",
+	"copyright": "© 2025 Felype&Silva, agencia inmobiliaria digital. Todos los derechos reservados.",
+	"buttons": [
+		{
+			"text": "Contactar",
+			"url": "/contacto"
+		}
+	]
+}

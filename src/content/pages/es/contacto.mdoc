@@ -1,0 +1,32 @@
+---
+title: Contáctanos
+type: informational
+lastUpdateDate: 2025-07-01
+hideTitle: false
+seo:
+  title: Contáctanos | Felype&Silva
+  description: Ponte en contacto con Felype&Silva para consultas inmobiliarias en España o Brasil. Te responderemos personalmente.
+  author: Felype&Silva
+---
+
+{% Container %}
+
+¿Quieres comprar, vender o simplemente hacer una consulta? Completa tus datos y nos pondremos en contacto contigo lo antes posible.
+
+{% Contact
+  title="Formulario de contacto"
+  fields=[
+    {title: "Nombre", placeholder: "Ej: Ana", required: true, type: "text"},
+    {title: "Apellidos", placeholder: "Ej: García Silva", type: "text"},
+    {title: "Correo electrónico", placeholder: "tucorreo@email.com", required: true, type: "email"},
+    {title: "Teléfono", placeholder: "+34 600 123 456", type: "tel"},
+    {title: "Mensaje", placeholder: "Escribe tu mensaje aquí", required: true, type: "textarea", width: 2},
+    {title: "Consiento ser contactado por teléfono desde el número móvil de la empresa", required: false, type: "checkbox"},
+    {title: "He leído y acepto la Política de Privacidad y los Términos de Uso", required: true, type: "checkbox"},
+    {title: "Enviar", type: "submit", width: 2}
+  ]
+/%}
+
+Puedes consultar nuestra [Política de Privacidad](/politica-de-privacidad){target="_blank"} y nuestros [Términos y Condiciones](/terminos){target="_blank"}.
+
+{% /Container %}

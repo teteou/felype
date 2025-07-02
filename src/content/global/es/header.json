@@ -1,0 +1,28 @@
+{
+	"logo": {
+		"imagePath": "/src/assets/global/navigation/logo.svg"
+	},
+	"pages": [
+		{
+			"title": "Inicio",
+			"link": "/"
+		},
+		{
+			"title": "Servicios",
+			"link": "/works"
+		},
+		{
+			"title": "Quiénes somos",
+			"link": "/quienes-somos"
+		},
+		{
+			"title": "Consultas",
+			"link": "/consultas"
+		},
+		{
+			"title": "Contacto",
+			"link": "/contacto"
+		}
+	],
+	"actions": []
+}
